@@ -1,10 +1,12 @@
+import Img1 from "../assets/portalImg.png"
+import Img2 from "../assets/servImg.png"
 export interface Project {
   id: string;
   translationKey: string;
   technologies: string[];
   githubUrl?: string;
   liveUrl?: string;
-  img?:boolean;
+  img?:string;
   imgSrc?:string
   featured?: boolean;
 }
@@ -23,18 +25,18 @@ export const projects: Project[] = [
       "PostgreSQL/PostGIS",
       "JWT",
     ],
-    img:true,
+    img:Img2,
     githubUrl: undefined,
-    liveUrl: undefined,
+    liveUrl: "https://servlink-plataforma.netlify.app/",
   },
   {
     id: "portal-ipil",
     translationKey: "portalIpil",
     technologies: ["React", "TypeScript", "Node.js", "Fastify", "Prisma", "PostgreSQL"],
     githubUrl: undefined,
-    liveUrl: undefined,
+    liveUrl: "https://ipil.ao/",
     featured: true,
-    img:false
+    img:Img1
   },
   {
     id: "task-flow",
@@ -42,6 +44,6 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript", "Node.js", "Express.js", "PostgreSQL"],
     githubUrl: undefined,
     liveUrl: undefined,
-    img:false
+    img:""
   },
 ];

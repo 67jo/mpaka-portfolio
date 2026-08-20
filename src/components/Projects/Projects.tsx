@@ -4,12 +4,9 @@ import { useTranslation } from "react-i18next";
 import { SectionHeading } from "../ui/SectionHeading";
 import { Reveal } from "../ui/Reveal";
 import { projects } from "../../data/projects";
-import { useState } from "react";
-import Img1 from "../../assets/portalImg.png"
 
 export function Projects() {
   const { t } = useTranslation();
-  const [hasImg, setHasImg] = useState<boolean>(false)
 
   return (
     <section id="projects" className="mx-auto max-w-6xl px-5 py-24 sm:px-8">
@@ -21,22 +18,22 @@ export function Projects() {
         {projects.map((project, index) => (
           <Reveal key={project.id} delay={index * 80}>
             <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)] transition-all hover:-translate-y-1 hover:border-[var(--border-strong)]">
-              {
-                project.img 
-                
-                ?
-
-                <img src={Img1} alt="" />
-
-                :
-
+              {project.img ? (
+                <div className="aspect-[16/10] w-full overflow-hidden border-b border-[var(--border)]">
+                  <img
+                    src={project.img}
+                    alt={t(`projects.${project.translationKey}.name`)}
+                    className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                  />
+                </div>
+              ) : (
                 <div className="flex aspect-[16/10] items-center justify-center border-b border-[var(--border)] bg-[var(--bg)]">
-                <LayoutGrid
-                  className="h-9 w-9 text-primary/50 transition-colors group-hover:text-primary"
-                  strokeWidth={1.25}
-                />
-              </div>
-              }
+                  <LayoutGrid
+                    className="h-9 w-9 text-primary/50 transition-colors group-hover:text-primary"
+                    strokeWidth={1.25}
+                  />
+                </div>
+              )}
 
               <div className="flex flex-1 flex-col p-6">
                 {project.featured && (
