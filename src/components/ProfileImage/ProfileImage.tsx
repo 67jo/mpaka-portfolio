@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import ImgEu from "../../assets/Eu.jpeg"
 
 export function ProfileImage() {
   const { t } = useTranslation();
@@ -8,7 +9,7 @@ export function ProfileImage() {
       <div className="absolute inset-0 -z-10 rounded-[28px] bg-primary/10 blur-2xl animate-glow-pulse" />
       <div className="group relative h-full w-full overflow-hidden rounded-[28px] border border-[var(--border-strong)] bg-[var(--surface)] shadow-[0_0_0_1px_rgba(1,231,246,0.08)]">
         <img
-          src="/profile.jpg"
+          src={ImgEu}
           alt={t("hero.name") + " — Software Developer"}
           loading="eager"
           className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
