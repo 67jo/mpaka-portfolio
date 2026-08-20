@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "Mpaka José — Software Developer",
+    "description": "Portfolio of Mpaka José, a Software Developer focused on building modern web applications, APIs and full-stack solutions."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "Software Developer",
+    "greeting": "Hi, I'm",
+    "name": "Mpaka José",
+    "description": "I build modern, scalable web applications focused on solving real-world problems.",
+    "ctaProjects": "View my projects",
+    "ctaContact": "Get in touch",
+    "availability": "Available for opportunities",
+    "codeComment": "Available for opportunities"
+  },
+  "about": {
+    "eyebrow": "About Me",
+    "title": "Who I am",
+    "paragraph1": "I'm a Software Developer focused on building modern web applications, robust APIs and full-stack solutions. I work across the frontend and backend, building scalable systems designed to solve real-world problems.",
+    "paragraph2": "I have experience building web applications with React and TypeScript, creating APIs with Node.js and Fastify, and integrating relational databases. I'm always focused on writing clean, well-structured, maintainable code.",
+    "paragraph3": "Interested in Software Engineering, Application Architecture, Scalable Systems and continuous learning. Open to national and international opportunities.",
+    "badges": {
+      "role": "Software Developer",
+      "stack": "Full-Stack",
+      "location": "Angola",
+      "open": "Open to Opportunities"
+    }
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Professional Experience",
+    "current": "Current Experience",
+    "sosoft": {
+      "company": "SOSOFT",
+      "role": "Software Developer",
+      "description": "Developing and maintaining web applications and enterprise systems. Active contributor to Portal IPIL — an academic management platform designed for the IPIL academic environment.",
+      "highlightLabel": "Featured project",
+      "highlightTitle": "Portal IPIL",
+      "highlightDescription": "Academic management platform built for IPIL. Modern interface with React and TypeScript, robust API with Fastify and Node.js."
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Technical Skills",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "tools": "Tools"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "My work",
+    "github": "GitHub",
+    "liveDemo": "Live Demo",
+    "professionalTag": "Professional Project",
+    "serviceMarket": {
+      "name": "ServiceMarket",
+      "description": "Local services platform that connects clients with service providers. Geolocation support, JWT authentication and service category management."
+    },
+    "portalIpil": {
+      "name": "Portal IPIL",
+      "description": "Academic management platform designed for the IPIL academic environment. Student, class and academic content management."
+    },
+    "taskFlow": {
+      "name": "TaskFlow",
+      "description": "Task and project management application inspired by modern productivity tools. Organized into boards, lists and cards."
+    }
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "How I Work",
+    "steps": {
+      "understand": {
+        "title": "Understand the Problem",
+        "description": "Requirements analysis, research and clarifying goals before writing a single line of code."
+      },
+      "plan": {
+        "title": "Plan the Solution",
+        "description": "Architecture, wireframes and choosing the most appropriate technologies for the problem."
+      },
+      "build": {
+        "title": "Build",
+        "description": "Iterative development focused on code quality, reusable components and best practices."
+      },
+      "test": {
+        "title": "Test",
+        "description": "Functional testing, code review and validation against the defined requirements."
+      },
+      "deploy": {
+        "title": "Deploy and Improve",
+        "description": "Deployment, monitoring and continuous iteration based on feedback and new requirements."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build something together?",
+    "description": "I'm open to opportunities, projects and collaborations in software development.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email",
+      "subject": "Subject",
+      "subjectPlaceholder": "What do you want to talk about?",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "Something went wrong while sending your message. Please try again.",
+      "errors": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Enter a valid email",
+        "subjectRequired": "Subject is required",
+        "messageRequired": "Message is required",
+        "messageMin": "Message must be at least 10 characters"
+      }
+    },
+    "connect": "Or reach me directly"
+  },
+  "footer": {
+    "rights": "© 2026 Mpaka José. All rights reserved.",
+    "builtWith": "Built with React, TypeScript and Tailwind CSS."
+  },
+  "theme": {
+    "toggleToLight": "Switch to light mode",
+    "toggleToDark": "Switch to dark mode"
+  },
+  "language": {
+    "toggle": "Switch language"
+  },
+  "scrollProgress": {
+    "label": "Page reading progress"
+  }
+}

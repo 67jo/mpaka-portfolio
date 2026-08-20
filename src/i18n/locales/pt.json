@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "Mpaka José — Software Developer",
+    "description": "Portfólio de Mpaka José, Software Developer especializado no desenvolvimento de aplicações web modernas, APIs e soluções full-stack."
+  },
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "skills": "Skills",
+    "projects": "Projetos",
+    "contact": "Contacto",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "Software Developer",
+    "greeting": "Olá, eu sou",
+    "name": "Mpaka José",
+    "description": "Construo aplicações web modernas, escaláveis e orientadas para resolver problemas reais.",
+    "ctaProjects": "Ver meus projetos",
+    "ctaContact": "Entrar em contacto",
+    "availability": "Disponível para oportunidades",
+    "codeComment": "Disponível para oportunidades"
+  },
+  "about": {
+    "eyebrow": "Sobre mim",
+    "title": "Quem sou eu",
+    "paragraph1": "Sou um Software Developer com foco em desenvolvimento de aplicações web modernas, APIs robustas e soluções full-stack. Trabalho tanto no frontend quanto no backend, construindo sistemas escaláveis e orientados para resolver problemas reais.",
+    "paragraph2": "Tenho experiência no desenvolvimento de aplicações web com React e TypeScript, criação de APIs com Node.js e Fastify, e integração com bases de dados relacionais. Estou sempre focado em escrever código limpo, bem estruturado e fácil de manter.",
+    "paragraph3": "Interessado em Engenharia de Software, Arquitetura de Aplicações, Sistemas Escaláveis e aprendizagem contínua. Aberto a oportunidades nacionais e internacionais.",
+    "badges": {
+      "role": "Software Developer",
+      "stack": "Full-Stack",
+      "location": "Angola",
+      "open": "Open to Opportunities"
+    }
+  },
+  "experience": {
+    "eyebrow": "Experiência",
+    "title": "Experiência Profissional",
+    "current": "Experiência Atual",
+    "sosoft": {
+      "company": "SOSOFT",
+      "role": "Software Developer",
+      "description": "Desenvolvimento e manutenção de aplicações web e sistemas empresariais. Participação ativa no desenvolvimento do Portal IPIL — plataforma de gestão académica desenhada para o ambiente académico do IPIL.",
+      "highlightLabel": "Projeto destacado",
+      "highlightTitle": "Portal IPIL",
+      "highlightDescription": "Plataforma de gestão académica desenvolvida para o IPIL. Interface moderna com React e TypeScript, API robusta com Fastify e Node.js."
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Competências Técnicas",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Base de Dados",
+      "tools": "Ferramentas"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projetos",
+    "title": "O meu trabalho",
+    "github": "GitHub",
+    "liveDemo": "Live Demo",
+    "professionalTag": "Projeto Profissional",
+    "serviceMarket": {
+      "name": "ServiceMarket",
+      "description": "Plataforma de serviços locais que conecta clientes e prestadores de serviços. Suporte a geolocalização, autenticação JWT e gestão de categorias de serviço."
+    },
+    "portalIpil": {
+      "name": "Portal IPIL",
+      "description": "Plataforma de gestão académica desenvolvida para o ambiente académico do IPIL. Gestão de estudantes, turmas e conteúdos académicos."
+    },
+    "taskFlow": {
+      "name": "TaskFlow",
+      "description": "Aplicação de gestão de tarefas e projetos inspirada em ferramentas modernas de produtividade. Organização por boards, listas e cards."
+    }
+  },
+  "process": {
+    "eyebrow": "Processo",
+    "title": "Como trabalho",
+    "steps": {
+      "understand": {
+        "title": "Compreender o Problema",
+        "description": "Análise dos requisitos, pesquisa e clarificação dos objetivos antes de escrever qualquer linha de código."
+      },
+      "plan": {
+        "title": "Planear a Solução",
+        "description": "Arquitetura, wireframes e definição das tecnologias mais adequadas para o problema."
+      },
+      "build": {
+        "title": "Construir",
+        "description": "Desenvolvimento iterativo com foco em qualidade de código, componentes reutilizáveis e boas práticas."
+      },
+      "test": {
+        "title": "Testar",
+        "description": "Testes funcionais, revisão de código e validação contra os requisitos definidos."
+      },
+      "deploy": {
+        "title": "Publicar e Melhorar",
+        "description": "Deploy, monitorização e iteração contínua com base em feedback e novos requisitos."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Vamos construir algo juntos?",
+    "description": "Estou aberto a oportunidades, projetos e colaborações em desenvolvimento de software.",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "O teu nome",
+      "email": "Email",
+      "emailPlaceholder": "O teu email",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Sobre o que queres falar?",
+      "message": "Mensagem",
+      "messagePlaceholder": "A tua mensagem...",
+      "send": "Enviar mensagem",
+      "sending": "A enviar...",
+      "success": "Mensagem enviada com sucesso! Entrarei em contacto em breve.",
+      "error": "Ocorreu um erro ao enviar a mensagem. Tenta novamente.",
+      "errors": {
+        "nameRequired": "O nome é obrigatório",
+        "emailRequired": "O email é obrigatório",
+        "emailInvalid": "Introduz um email válido",
+        "subjectRequired": "O assunto é obrigatório",
+        "messageRequired": "A mensagem é obrigatória",
+        "messageMin": "A mensagem deve ter pelo menos 10 caracteres"
+      }
+    },
+    "connect": "Ou fala comigo diretamente"
+  },
+  "footer": {
+    "rights": "© 2026 Mpaka José. Todos os direitos reservados.",
+    "builtWith": "Construído com React, TypeScript e Tailwind CSS."
+  },
+  "theme": {
+    "toggleToLight": "Mudar para modo claro",
+    "toggleToDark": "Mudar para modo escuro"
+  },
+  "language": {
+    "toggle": "Mudar idioma"
+  },
+  "scrollProgress": {
+    "label": "Progresso de leitura da página"
+  }
+}
