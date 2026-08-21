@@ -38,13 +38,22 @@
     "eyebrow": "Experiência",
     "title": "Experiência Profissional",
     "current": "Experiência Atual",
-    "sosoft": {
-      "company": "SOSOFT",
-      "role": "Software Developer",
-      "description": "Desenvolvimento e manutenção de aplicações web e sistemas empresariais. Participação ativa no desenvolvimento do Portal IPIL — plataforma de gestão académica desenhada para o ambiente académico do IPIL.",
-      "highlightLabel": "Projeto destacado",
-      "highlightTitle": "Portal IPIL",
-      "highlightDescription": "Plataforma de gestão académica desenvolvida para o IPIL. Interface moderna com React e TypeScript, API robusta com Fastify e Node.js."
+    "present": "Atual",
+    "items": {
+      "sosoft": {
+        "role": "Software Developer",
+        "description": "Desenvolvimento e manutenção de aplicações web e sistemas empresariais. Participação ativa no desenvolvimento do Portal IPIL — plataforma de gestão académica desenhada para o ambiente académico do IPIL.",
+        "highlightLabel": "Projeto destacado",
+        "highlightTitle": "Portal IPIL",
+        "highlightDescription": "Plataforma de gestão académica desenvolvida para o IPIL. Interface moderna com React e TypeScript, API robusta com Fastify e Node.js."
+      },
+      "multitel": {
+        "role": "Software Development Intern",
+        "description": "Participação em atividades de desenvolvimento de software durante o período de estágio na Multitel. Experiência em ambiente profissional, colaboração com a equipa e participação no desenvolvimento de soluções tecnológicas.",
+        "highlightLabel": "Projeto destacado",
+        "highlightTitle": "SIGI",
+        "highlightDescription": "Participação no projeto SIGI, contribuindo para o desenvolvimento e apresentação de soluções para o projeto."
+      }
     }
   },
   "skills": {

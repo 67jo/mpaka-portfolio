@@ -38,13 +38,22 @@
     "eyebrow": "Experience",
     "title": "Professional Experience",
     "current": "Current Experience",
-    "sosoft": {
-      "company": "SOSOFT",
-      "role": "Software Developer",
-      "description": "Developing and maintaining web applications and enterprise systems. Active contributor to Portal IPIL — an academic management platform designed for the IPIL academic environment.",
-      "highlightLabel": "Featured project",
-      "highlightTitle": "Portal IPIL",
-      "highlightDescription": "Academic management platform built for IPIL. Modern interface with React and TypeScript, robust API with Fastify and Node.js."
+    "present": "Present",
+    "items": {
+      "sosoft": {
+        "role": "Software Developer",
+        "description": "Developing and maintaining web applications and enterprise systems. Active contributor to Portal IPIL — an academic management platform designed for the IPIL academic environment.",
+        "highlightLabel": "Featured project",
+        "highlightTitle": "Portal IPIL",
+        "highlightDescription": "Academic management platform built for IPIL. Modern interface with React and TypeScript, robust API with Fastify and Node.js."
+      },
+      "multitel": {
+        "role": "Software Development Intern",
+        "description": "Participated in software development activities during an internship at Multitel. Professional environment experience, team collaboration and contribution to technological solutions.",
+        "highlightLabel": "Featured project",
+        "highlightTitle": "SIGI",
+        "highlightDescription": "Contributed to the SIGI project, helping develop and present solutions for it."
+      }
     }
   },
   "skills": {
