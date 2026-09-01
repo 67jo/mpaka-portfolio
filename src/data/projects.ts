@@ -32,7 +32,7 @@ export const projects: Project[] = [
   {
     id: "portal-ipil",
     translationKey: "portalIpil",
-    technologies: ["React", "TypeScript", "Node.js", "Fastify", "Prisma", "PostgreSQL"],
+    technologies: ["React", "TypeScript", "Node.js", "Fastify", "Prisma", "MySQL"],
     githubUrl: undefined,
     liveUrl: "https://portal.ipil.ao/",
     featured: true,
