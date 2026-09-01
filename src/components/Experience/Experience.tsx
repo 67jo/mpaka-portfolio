@@ -1,4 +1,4 @@
-import { Briefcase, FolderGit2 } from "lucide-react";
+import { FolderGit2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SectionHeading } from "../ui/SectionHeading";
 import { Reveal } from "../ui/Reveal";
