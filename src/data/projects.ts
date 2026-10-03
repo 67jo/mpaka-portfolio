@@ -45,6 +45,7 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript", "Eloquent", "Laravel", "PostgreSQL"],
     githubUrl: undefined,
     liveUrl: "https://piga.sosoft.ao/",
+    featured:true,
     img:Img3
   },
 ];

@@ -80,8 +80,8 @@
       "name": "Portal IPIL",
       "description": "Plataforma de gestão académica desenvolvida para o ambiente académico do IPIL. Gestão de estudantes, turmas e conteúdos académicos."
     },
-    "taskFlow": {
-      "name": "TaskFlow",
+    "piga": {
+      "name": "Piga",
       "description": "Aplicação de gestão de tarefas e projetos inspirada em ferramentas modernas de produtividade. Organização por boards, listas e cards."
     }
   },
