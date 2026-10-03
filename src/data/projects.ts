@@ -1,5 +1,6 @@
-import Img1 from "../assets/portalImg.png"
+import Img1 from "../assets/portalImg.png" 
 import Img2 from "../assets/servImg.png"
+import Img3 from "../assets/piga.png"
 export interface Project {
   id: string;
   translationKey: string;
@@ -39,11 +40,11 @@ export const projects: Project[] = [
     img:Img1
   },
   {
-    id: "task-flow",
-    translationKey: "taskFlow",
-    technologies: ["React", "TypeScript", "Node.js", "Express.js", "PostgreSQL"],
+    id: "piga",
+    translationKey: "piga",
+    technologies: ["React", "TypeScript", "Eloquent", "Laravel", "PostgreSQL"],
     githubUrl: undefined,
-    liveUrl: undefined,
-    img:""
+    liveUrl: "https://piga.sosoft.ao/",
+    img:Img3
   },
 ];
