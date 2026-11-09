@@ -80,9 +80,9 @@
       "name": "Portal IPIL",
       "description": "Academic management platform designed for the IPIL academic environment. Student, class and academic content management."
     },
-    "taskFlow": {
-      "name": "TaskFlow",
-      "description": "Task and project management application inspired by modern productivity tools. Organized into boards, lists and cards."
+    "piga": {
+      "name": "Piga",
+      "description": "PIGA is a multi-tenant SaaS platform for comprehensive academic management — including enrolment, assessment, timetables, school administration, attendance, document management, public portals, and human resources management. It is designed to be deployed either on the school's own infrastructure (on-premises) or on SOSOFT's cloud infrastructure. Its architecture is based on physical data isolation (one PostgreSQL database per tenant), modular licensing, and declarative extensibility across routes, permissions, menus, reference tables, imports, signed documents, and dashboards, without relying on central registries."
     }
   },
   "process": {

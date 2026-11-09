@@ -82,7 +82,7 @@
     },
     "piga": {
       "name": "Piga",
-      "description": "Aplicação de gestão de tarefas e projetos inspirada em ferramentas modernas de produtividade. Organização por boards, listas e cards."
+      "description": "O PIGA é uma plataforma SaaS multi-tenant para gestão académica completa — matrículas, avaliação, horários, secretaria, frequência, documentos, portal público e gestão de pessoas — desenhada para instalação em infraestrutura própria da escola (on-premise) ou na nuvem da SOSOFT. A arquitectura assenta em isolamento físico de dados (uma base de dados PostgreSQL por cliente), licenciamento modular e extensibilidade por declaração (rotas, permissões, menu, tabelas de referência, importações, documentos assinados, painéis) sem listas centrais."
     }
   },
   "process": {
